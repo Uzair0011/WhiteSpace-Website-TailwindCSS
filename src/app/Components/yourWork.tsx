@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function YourWork() {
   return (
     <div>
-      <div className="w-auto h-auto md:h-[574px] md:w-[100%] bg-customBlue  px-[50px] content-center text-white p-5">
+      <div className="overflow-hidden w-auto h-auto md:h-[574px] md:w-[100%] bg-customBlue  px-[50px] content-center text-white p-5">
         <section className=" w-auto h-auto justify-items-center">
           <h1 className="text-[50px] md:text-[64px] font-bold tracking-tight text-center">
             Your work, everywhere you are

@@ -11,10 +11,10 @@ export default function Sponsors() {
           <br />
           <br />
           <div className="md:auto md:w-[1372px] block md:flex justify-items-center md:justify-around items-center ">
-            <Image className="pb-11" src="/microsoft.png" alt="arrow" width="287" height="68" />
-            <Image className="pb-11" src="/apple.png" alt="arrow" width="55" height="68" />
-            <Image className="pb-11" src="/slack.png" alt="arrow" width="280" height="68" />
-            <Image className="pb-11" src="/google.png" alt="arrow" width="211" height="68" />
+            <Image className="pb-11 w-48 md:w-64" src="/microsoft.png" alt="arrow" width="287" height="68" />
+            <Image className="pb-11 md:w-45" src="/apple.png" alt="arrow" width="55" height="68" />
+            <Image className="pb-11 w-48 md:w-64" src="/slack.png" alt="arrow" width="280" height="68" />
+            <Image className="pb-11 w-48 md:w-64" src="/google.png" alt="arrow" width="211" height="68" />
           </div>
         </section>
       </div>

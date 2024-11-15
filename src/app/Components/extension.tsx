@@ -4,7 +4,7 @@ export default function Extension() {
   return (
     <div>
       <div className="w-auto h-auto text-center md:text-start overflow-hidden flex-wrap  m:h-[829px] md:w-[100%] bg-customBlue px-[50px]  flex flex-col lg:flex-row text-white  ">
-        <section className="w-auto h-auto md:w-[50%] md:h-[450px] py-5 sm:py-20 lg:h-[829px] content-center ">
+        <section className="w-auto h-auto md:w-[50%] md:h-[450px] py-5 sm:py-20 lg:h-[829px] content-center justify-items-center md:justify-items-start ">
           <h1 className="h-auto w-[250px] lg:h-auto sm:w-[680px] text-[35px] sm:text-[50px] md:text-[64px] font-bold tracking-tight">
             Use as Extension
           </h1>

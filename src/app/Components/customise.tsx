@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Customise() {
   return (
-    <div className="w-auto h-auto md:h-[829px]   px-[50px] block md:flex text-black text-center ">
-      <section className="w-[95%] h-[400px]  md:w-[50%] md:h-[829px] flex justify-center items-center ">
-        <div className="w-[824px] h-[450px]  bg-[#C4DEFD]"></div>
+    <div className=" w-auto h-auto md:h-[829px]   px-[50px] block lg:flex text-black text-center py-5 items-center">
+      <section className="w-auto h-auto md:w-[95%] md:h-[400px]   flex justify-start items-center ">
+        <div className="w-[424px] h-[350px]  bg-[#C4DEFD]"></div>
       </section>
 
       <section className="w-auto h-auto md:w-[50%] md:h-[829px] block md:flex justify-center  md:justify-end  items-center  md:text-start ">
@@ -17,7 +17,7 @@ export default function Customise() {
             editors (Rich Text or Markdown). Or create your own scripts and
             plugins using the Extension API.
           </p>
-          <div className="pl-0 py-5 md:py-0 md:pl-10 ">
+          <div className="pl-0 py-5 md:py-0 md:pl-10 justify-items-center md:justify-items-start ">
             <button className="w-[250px] text-[18px]  bg-[#4F9CF9] hover:bg-[#89a6c9] py-3 px-5 rounded flex items-center justify-center gap-3">
               <p> Let&rsquo;s Go</p>
 
