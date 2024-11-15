@@ -13,11 +13,11 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <Project/>
-      <Extension/>
-      <Customise/>
-      <YourWork/>
-      <Sponsors/>
-      <Footer/>
+      {/* <Extension/> */}
+      {/* <Customise/> */}
+      {/* <YourWork/> */}
+      {/* <Sponsors/> */}
+      {/* <Footer/> */}
     </div>
   );
 }
