@@ -37,7 +37,7 @@ export default function Navbar() {
             <li>Pricing</li>
           </ul>
           <div>
-            <button className="bg-customYellow py-3 px-8 rounded text-customBlue font-medium ">
+            <button className="bg-customYellow hover:bg-[#e5d9b5] py-3 px-8 rounded text-customBlue font-medium ">
               Login
             </button>
           </div>

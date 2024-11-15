@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div>
-      <div className=" text-center md:text-start overflow-hidden flex-wrap h-auto m:h-[829px] w-[100%] bg-customBlue px-[50px]  flex flex-col lg:flex-row text-white  ">
-        <section className=" w-[50%] h-[450px]  py-20 md:h-[829px] content-center ">
+      <div className="w-auto h-auto text-center md:text-start overflow-hidden block md:flex-wrap md:h-auto m:h-[829px] md:w-[100%] bg-customBlue px-[50px]  flex flex-col lg:flex-row text-white  ">
+        <section className="w-auto h-auto md:w-[50%] md:h-[450px]  py-20 lg:h-[829px] content-center ">
           <h1 className="w-[250px] h-auto sm:w-[680px] text-[35px] sm:text-[50px] md:text-[64px] font-bold tracking-tight">
             Get More Done with whitepace
           </h1>
@@ -12,7 +12,7 @@ export default function Hero() {
             Project management software that enables your teams to collaborate,
             plan, analyze and manage everyday tasks
           </p>
-          <button className="w-[250px] text-[18px]  bg-[#4F9CF9] py-3 px-5 rounded flex items-center justify-center gap-3">
+          <button className="w-[250px] text-[18px]  bg-[#4F9CF9] hover:bg-[#89a6c9] py-3 px-5 rounded flex items-center justify-center gap-3">
             <p> Try Whitepace free</p>
             <Image src="/arrow.png" alt="arrow" width="10" height="10" />
           </button>
