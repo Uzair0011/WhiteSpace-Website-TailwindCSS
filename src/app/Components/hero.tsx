@@ -4,11 +4,11 @@ export default function Hero() {
   return (
     <div>
       <div className="w-auto h-auto lg:h-[629px] text-center md:text-start overflow-hidden block md:flex-wrap md:h-auto m:h-[829px] md:w-[100%] bg-customBlue px-[50px]  md:flex flex-col lg:flex-row text-white  justify-between  ">
-        <section className="w-auto h-auto md:w-[50%] md:h-[450px] lg:w-[450px]   py-20 lg:h-[629px] content-center justify-items-center md:justify-items-start    ">
-          <h1 className="w-[250px]  lg:w-[450px] h-auto sm:w-[680px] text-[35px] sm:text-[50px] md:text-[44px] font-bold tracking-tight ">
+        <section className=" w-auto h-auto md:w-[50%] md:h-[450px] lg:w-[400px]   py-20 lg:h-[629px] content-center justify-items-center md:justify-items-start    ">
+          <h1 className="w-[250px]  lg:w-[400px] h-auto sm:w-[680px] text-[35px] sm:text-[50px] md:text-[44px] font-bold tracking-tight ">
             Get More Done with whitepace
           </h1>
-          <p className=" w-[250px]   md:w-[500px] text-[15px] md:text-[17px] py-10 ">
+          <p className=" w-[250px]   md:w-[380px] text-[15px] text-justify md:text-[17px] py-10 ">
             Project management software that enables your teams to collaborate,
             plan, analyze and manage everyday tasks
           </p>
@@ -18,7 +18,7 @@ export default function Hero() {
           </button>
         </section>
 
-        <section className="w-[95%] h-[400px]  md:w-[50%] md:h-[829px] flex justify-center items-center lg:w-[450px] lg:h-[629px]">
+        <section className="w-[95%] h-[400px]  md:w-[50%] md:h-[829px] flex justify-center items-center lg:w-[550px] lg:h-[629px]  ">
           <div className="w-[824px] h-[350px]  bg-[#C4DEFD]"></div>
         </section>
       </div>

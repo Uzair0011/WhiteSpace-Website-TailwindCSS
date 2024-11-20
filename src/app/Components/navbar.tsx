@@ -29,7 +29,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="hidden w-[590px] h-[60px] md:flex justify-between gap-20 items-center ">
+        <div className="hidden w-[500px] h-[60px] md:flex justify-between gap-20 items-center ">
           <ul className=" flex gap-6 text-white items-center">
             <li>Products</li>
             <li>Solutions</li>

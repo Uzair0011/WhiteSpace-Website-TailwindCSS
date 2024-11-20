@@ -8,7 +8,7 @@ export default function YourWork() {
           <h1 className="text-[50px] md:text-[64px] font-bold tracking-tight text-center">
             Your work, everywhere you are
           </h1>
-          <p className="w-auto h-auto md:w-[1100px] text-[18px] py-10 text-center">
+          <p className="w-auto h-auto md:w-[1100px] text-[18px] py-10 text-center ">
             Access your notes from your computer, phone or tablet by
             synchronising with various services, including whitepace, Dropbox
             and OneDrive. The app is available on Windows, macOS, Linux, Android
