@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Extension() {
   return (
     <div>
-      <div className="w-auto h-auto text-center md:text-start overflow-hidden flex-wrap  m:h-[829px] md:w-[100%] bg-customBlue px-[50px]  flex flex-col lg:flex-row text-white  ">
-        <section className="w-auto h-auto md:w-[50%] md:h-[450px] py-5 sm:py-20 lg:h-[829px] content-center justify-items-center md:justify-items-start ">
-          <h1 className="h-auto w-[250px] lg:h-auto sm:w-[680px] text-[35px] sm:text-[50px] md:text-[64px] font-bold tracking-tight">
+      <div className="w-auto h-auto text-center md:text-start overflow-hidden flex-wrap  m:h-[829px] md:w-[100%] bg-customBlue px-[50px]  flex flex-col lg:flex-row text-white justify-between  ">
+        <section className="w-auto h-auto py-10  md:w-[50%] lg:h-[629px] content-center lg:w-[450px] ">
+          <h1 className="h-auto w-[250px] lg:h-auto sm:w-[680px] text-[35px] sm:text-[50px] md:text-[54px] font-bold tracking-tight">
             Use as Extension
           </h1>
-          <p className=" w-[250px]   md:w-[650px] text-[15px] md:text-[18px] py-10">
+          <p className=" w-[250px]   md:w-[430px] text-justify text-[15px] md:text-[18px] py-10">
             Use the web clipper extension, available on Chrome and Firefox, to
             save web pages or take screenshots as notes.
           </p>
@@ -18,7 +18,7 @@ export default function Extension() {
           </button>
         </section>
 
-        <section className="w-[95%] h-[400px]  md:w-[50%] lg:h-[829px] flex justify-center items-center">
+        <section className="w-[95%] sm:h-full  md:h-[400px]  md:w-[50%] lg:h-[829pxx] flex justify-center items-center lg:w-[450px] py-10 ">
           <div className="w-[824px] h-[350px]  bg-[#C4DEFD]"></div>
         </section>
       </div>

@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div>
-      <div className="w-auto h-auto md:w-[100%] md:h-[461px]  bg-customBlue  px-[50px] content-center text-white pb-5 md:pb-0">
+      <div className="w-auto h-auto md:w-[100%] md:h-[461px]  bg-customBlue  px-[50px] content-center bg  text-white pb-5 md:pb-0">
         <section>
-          <div className="w-auto h-auto md:w-[1000px] block md:flex justify-between items-start pt-10 text-center md:text-start">
+          <div className="  h-auto md:w-[900px] block md:flex justify-between items-start pt-10 text-center md:text-start ">
             <div >
               <div className="flex flex-col md:flex-row gap-5 items-center text-[28px] font-bold ">
                 <Image src="/logo.png" alt="logo" width="30" height="30" />

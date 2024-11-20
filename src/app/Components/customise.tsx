@@ -2,17 +2,17 @@ import Image from "next/image";
 
 export default function Customise() {
   return (
-    <div className=" w-auto h-auto md:h-[829px]   px-[50px] block lg:flex text-black text-center py-5 items-center">
-      <section className="w-auto h-auto md:w-[95%] md:h-[400px]   flex justify-start items-center ">
+    <div className=" w-auto h-auto md:h-[729px]   px-[50px] block lg:flex text-black text-center py-5 items-center justify-between">
+      <section className="w-[95%] h-[400px]  md:w-[50%] md:h-[729px] flex justify-center items-center lg:w-[450px] lg:h-[629px] ">
         <div className="w-[424px] h-[350px]  bg-[#C4DEFD]"></div>
       </section>
 
-      <section className="w-auto h-auto md:w-[50%] md:h-[829px] block md:flex justify-center  md:justify-end  items-center  md:text-start ">
+      <section className="w-auto  h-auto md:w-[50%] lg:h-[629px] content-center text-start  lg:w-[450px] ">
         <div>
-          <h1 className="w-auto h-auto md:w-[520px]  text-[50px] md:text-[72px] pl-0 md:pl-10  font-bold  tracking-tight ">
+          <h1 className="w-auto h-auto md:w-[450px]  text-[50px] md:text-[62px] pl-0 md:pl-10  font-bold  tracking-tight ">
             Customise it to your needs
           </h1>
-          <p className="h-auto w-auto md:w-[650px] text-[18px] py-10  pl-0 md:pl-10 ">
+          <p className="h-auto w-auto md:w-[450px] text-[17px] py-10  pl-0 md:pl-10 ">
             Customise the app with plugins, custom themes and multiple text
             editors (Rich Text or Markdown). Or create your own scripts and
             plugins using the Extension API.
