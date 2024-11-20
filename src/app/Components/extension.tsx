@@ -18,7 +18,7 @@ export default function Extension() {
           </button>
         </section>
 
-        <section className="w-[95%] sm:h-full  md:h-[400px]  md:w-[50%] lg:h-[829pxx] flex justify-center items-center lg:w-[450px] py-10 ">
+        <section className="w-[95%] sm:h-full  md:h-[400px]  md:w-[50%] lg:h-[629px] flex justify-center items-center lg:w-[450px] py-10 ">
           <div className="w-[824px] h-[350px]  bg-[#C4DEFD]"></div>
         </section>
       </div>
