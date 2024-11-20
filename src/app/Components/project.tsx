@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Project() {
   return (
     <div>
-      <div className=" h-auto md:h-full w-[100%] px-[50px] block lg:flex text-black justify-between my-10">
+      <div className="overflow-hidden h-auto md:h-full w-[100%] px-[50px] block lg:flex text-black justify-between my-10">
         <section className=" w-auto h-auto md:w-[50%] lg:h-full content-center lg:w-[450px] ">
           <h1 className="w-[680px] text-[42px] md:text-[62px] pt-11 md:pt-0 font-bold tracking-tight">
             Project <div>Management</div>
