@@ -19,7 +19,7 @@ export default function Customise() {
           </p>
           <div className="pl-0 py-5 md:py-0 md:pl-10 justify-items-center md:justify-items-start  ">
             <button className="w-[250px] text-[18px]  bg-[#4F9CF9] hover:bg-[#89a6c9] py-3 px-5 rounded flex items-center justify-center gap-3">
-              <p> Let&rsquo;s Go</p>
+              <p className="text-white"> Let&rsquo;s Go</p>
 
               <Image src="/arrow.png" alt="arrow" width="10" height="10" />
             </button>
